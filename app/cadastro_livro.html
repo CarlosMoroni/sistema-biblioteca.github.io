@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro livro</title>
+    <link rel="stylesheet" href="./css/stilo-cadastroLivro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bloco">
+            <div class="alinhamento-campos">
+                <h1>Cadastro de Livros</h1>
+
+                <form action="">
+                    <label for="titulo">Titulo</label><br>
+                    <input type="text" name="" id="titulo" class="informacao-titulo"><br>
+
+                    <label for="autor">Autor</label><br>
+                    <input type="text" name="" id="autor" class="informacao"><br>
+
+                    <label for="genero">Genero</label><br>
+                    <input type="text" name="" id="genero" class="informacao"><br>
+
+                    <label for="genero">Editora</label><br>
+                    <input type="text" name="" id="editora" class="informacao"><br>
+
+                    <label for="isbn">ISBN</label><br>
+                    <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="isbn" class="informacao"><br>
+
+                    <label for="paginas">Paginas</label><br>
+                    <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="paginas" class="informacao-paginas"><br>
+
+                    <label for="paginas">Valor</label><br>
+                    <input type="number" id="valor" class="informacao"><br>
+
+                    <input type="button" value="Salvar" class="botao-salvar" onclick="cadastraLivro()">
+                    <button class="botao-salvar"><a href="./pagina_principal.html">Voltar</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/config.js"></script>
+</body>
+</html>

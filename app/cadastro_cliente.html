@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stili-cadastroCliente.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bloco">
+            <div class="alinhamento-campos">
+                <h1>Cadastro de Clientes</h1>
+                <form onsubmit="cadastraFuncionario()">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" class="informacao-nome"><br>
+
+                    <label for="cpf">CPF</label><br>
+                    <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="cpf" class="informacao" name="cpf"><br>
+
+                    <label for="idade">Idade</label><br>
+                    <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="idade" class="informacao-idade" name="idade"><br>
+
+                    <label for="sexo">Sexo</label><br>
+                    <select name="sexo" id="sexo" class="informacao-sexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outros">Outros</option>
+                    </select><br>
+                    
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" class="informacao-email"><br>
+
+                    <label for="telefone">Telefone</label><br>
+                    <input type="tel" name="telefone" id="telefone" class="informacao"><br>
+                    <input type="button" value="Salvar" class="botao-salvar" onclick="cadastraCliente()" id="btn">
+                    <button class="botao-salvar"><a href="./pagina_principal.html">Voltar</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/config.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-image: url(../imagens/background_tela_inicio.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+label{
+    font-size: 16pt;
+}
+
+.container, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+    width: 75vw;
+    height: 100vh;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.548); 
+    position: absolute;
+    display: flex;
+    
+    align-items: center;
+}
+
+.informacao-nome{
+    width: 500px;
+    height: 30px;
+    font-size: 16pt;
+    border: 0;
+    border-bottom: solid 2px ;
+    margin-bottom: 10px;
+}
+.informacao{
+    width: 200px;
+    height: 30px;
+    font-size: 16pt;
+    border: 0;
+    border-bottom: solid 2px ;
+    margin-bottom: 10px;
+}
+.informacao-idade{
+    width: 50px;
+    height: 30px;
+    font-size: 16pt;
+    border: 0;
+    border-bottom: solid 2px ;
+    margin-bottom: 10px;
+}
+.informacao-sexo{
+    width: 200px;
+    height: 30px;
+    font-size: 16pt;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: solid 2px ;
+}
+.informacao-email{
+    width: 400px;
+    height: 30px;
+    font-size: 16pt;
+    position: relative;
+    border: 0;
+    border-bottom: solid 2px ;
+    margin-bottom: 10px;
+}
+
+.botao-salvar{
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.555);
+}

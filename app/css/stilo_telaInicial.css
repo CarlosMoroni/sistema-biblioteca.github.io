@@ -1,0 +1,61 @@
+body{
+    background-image: url(../imagens/background_tela_inicio.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhamento-botoes{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px;
+    width:75vw;
+    height: 100vh;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.548); 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.alinhamento-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-tela-inicial{
+    background: rgb(170, 169, 169);
+    width: 23vw;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16pt;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+.botao-tela-inicial:hover{
+    opacity: 50%;
+    transition: .3s;
+}
+
+.alinhamento-imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-logo{
+    width: 10vw;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}

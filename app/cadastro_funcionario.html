@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stilo-cadastroFuncionario.css">
+    <title>cadastro funcionario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="bloco">
+            <div class="alinhamento-campos">
+                <h1>Cadastro de Funcionarios</h1>
+
+                <form>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" class="informacao-nome"><br>
+                    
+                    <label for="idade">Idade</label><br>
+                    <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="idade" class="informacao-idade" name="idade"><br>
+                    
+                    <label for="sexo">Sexo</label><br>
+                    <select name="sexo" id="sexo" class="informacao-sexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outros">Outros</option>
+                    </select><br>
+                    
+                    <label for="cpf">CPF</label><br>
+                    <input type="number" min="0" step="1" oninput="validity.valid||(value='');" id="cpf" class="informacao" name="cpf"><br>
+
+                    <label for="cargo">Cargo</label><br>
+                    <input type="text" name="" id="cargo" class="informacao"><br>
+
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" class="informacao-email"><br>
+
+                    <label for="telefone">Telefone</label><br>
+                    <input type="tel" name="telefone" id="telefone" class="informacao"><br>
+
+                    <input type="button" value="salvar" class="botao-salvar" id="btn" onclick="cadastraFuncionario()">
+                    <button class="botao-salvar"><a href="./pagina_principal.html">Voltar</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/config.js"></script>
+</body>
+</html>

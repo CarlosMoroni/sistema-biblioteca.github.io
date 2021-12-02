@@ -1,0 +1,51 @@
+body{
+    background-image: url(../imagens/background_tela_inicio.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+#quadrado-inicio{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.info-tela-login{
+    font: normal 12pt arial;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#login-inicio{
+    font: normal 44pt arial;
+    text-align: center;
+    margin: 20px;
+}
+
+
+#botao-iniciar{
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(170, 169, 169);
+}
+
+#botao-iniciar:hover{
+    opacity: 50%;
+    transition: .3s;
+}
+
