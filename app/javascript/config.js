@@ -1,5 +1,9 @@
 class Pessoa{
     constructor(nome,idade,sexo, cpf, email, telefone){
+        if(this.constructor == Pessoa){
+            throw new Error('Classe abstrata nao pode ser instanciada!')
+        }
+
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
@@ -9,12 +13,14 @@ class Pessoa{
     }
 }
 
+
 class Funcionario extends Pessoa{
     constructor(nome,idade,sexo, cargo, cpf, email, telefone){
         super(nome,idade,sexo, cpf, email, telefone);
         this.cargo = cargo;
     }
 }
+
 
 class Cliente extends Pessoa{
     constructor(nome,idade,sexo, cpf, email, telefone){
@@ -25,16 +31,8 @@ class Cliente extends Pessoa{
         const data = new Date();
         return `${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`
     }
-
-    locaLivro(livro){
-        const data = this.dataDia();
-        const locacao = {
-            livro,
-            data
-        };
-        return locacao;
-    }
 }
+
 
 class Livro{
     constructor(titulo,autor,genero,editora,isbn,paginas, valor){
@@ -48,7 +46,20 @@ class Livro{
     }
 }
 
+
+class Locacao{
+    constructor(livro, Cliente, funcionario){
+        this.livro = livro;
+        this.Cliente = Cliente;
+        this.funcionario = funcionario;
+    }
+
+    geraObjeto(){
+        
+    }
+}
 // ------------------------ conexao com banco de dados e instanciamento de classes ------------------------
+
 function cadastraFuncionario(){
     event.preventDefault();
     let nome = document.getElementById("nome").value;
