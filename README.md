@@ -40,9 +40,17 @@ Em atualizações futuras pode-se adicionar novos tipos de produtos alem dos liv
 Tudo com muita facilidades apenas criando novas classes e colocando seus objetos na instancia da classe locação, fazendo com que todo e qualquer produto seja inserido no banco de dados assim como os livros.
 
 ### Diagrama de caso de uso
-![image](https://user-images.githubusercontent.com/92612454/144765182-6abf8c18-4abc-4b3c-82b0-e8e391ddd5f2.png)
+![image](https://user-images.githubusercontent.com/92612454/144767936-e64e02d5-afcf-41f8-b03b-7033598f4119.png)
 
-Ator Funcionario: pode cadastrar novos funcionarios, cliente e livros, o funcionario 
+### Ator Funcionario: 
+Pode cadastrar novos funcionarios, cliente e livros ele pode tambem visualizar o relatorio de livros que é filtrado por genero, alem disso ele pode efetual locações e devoluções de livros
+
+### Ator Cliente: 
+Pode fazer locação e devolução de livros e consultar o relatorio de locação que ira informar se esta no prazo de entrega ou não, caso esteja atrasado o sistema ira calcular o valor da multa que devera ser pago.
+
+### Ator Sistema:
+Gera os relatorio de locação e de livros e salva no banco de dados todas as locações e devoluções feitas pelo funcinario 
+<br><br><br>
 
 ## Implementação
 
@@ -139,3 +147,4 @@ class Locacao{
 }
 ````
 Classe Locacao gera o objeto que sera inserido no na tabela locacao no banco de dados 
+
