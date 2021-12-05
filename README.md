@@ -27,7 +27,8 @@ como Autoajuda, ficção, não-ficção, científico, concursos, didáticos, etc
 ## Relatórios
  
 ### Diagrama de classe
-![image](https://user-images.githubusercontent.com/92612454/144765213-41d5c49a-ca35-4dcf-bc19-8cae67077307.png)
+![image](https://user-images.githubusercontent.com/92612454/144765431-441a110e-9242-4380-b7d9-b1017d7320cd.png)
+
 
 ### Classe Pessoa
 Classe abstrata e pai de Funcionario e Cliente
