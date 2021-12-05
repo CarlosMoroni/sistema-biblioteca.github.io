@@ -3,13 +3,17 @@ class Pessoa{
         if(this.constructor == Pessoa){
             throw new Error('Classe abstrata nao pode ser instanciada!')
         }
-
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
         this.cpf = cpf;
         this.email = email;
         this.telefone = telefone;
+    }
+
+    dataDia(){
+        const data = new Date();
+        return `${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`
     }
 }
 
@@ -25,11 +29,6 @@ class Funcionario extends Pessoa{
 class Cliente extends Pessoa{
     constructor(nome,idade,sexo, cpf, email, telefone){
         super(nome,idade,sexo, cpf, email, telefone)
-    }
-
-    dataDia(){
-        const data = new Date();
-        return `${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`
     }
 }
 
