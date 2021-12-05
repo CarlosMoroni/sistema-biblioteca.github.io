@@ -30,11 +30,11 @@ como Autoajuda, ficção, não-ficção, científico, concursos, didáticos, etc
 ![image](https://user-images.githubusercontent.com/92612454/144765431-441a110e-9242-4380-b7d9-b1017d7320cd.png)
 
 
-### Classe Pessoa
-Classe abstrata e pai de Funcionario e Cliente
-
-### Classe Cliente
-Estende Pessoa, seu unico metodo 
+- Classe Pessoa: é uma classe abstrata e pai de Funcionario e Cliente
+- Classe Cliente: estende Pessoa 
+- Classe Funcionario: estende Pessoa e tem apenas um atributo, cargo
+- Classe Locacao: recebe 3 atributos livro, cliente e funcionario tres objetos que são necessários para a inserção no banco de dados
+- CLasse Livro: gera novos livros   
 
 ### Diagrama de caso de uso
 ![image](https://user-images.githubusercontent.com/92612454/144765182-6abf8c18-4abc-4b3c-82b0-e8e391ddd5f2.png)
