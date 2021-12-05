@@ -27,7 +27,7 @@ como Autoajuda, ficção, não-ficção, científico, concursos, didáticos, etc
 ## Relatórios
  
 ### Diagrama de classe
-![image](https://user-images.githubusercontent.com/92612454/144765719-ea6f76b4-5e3c-4062-95bc-aac2cb08d083.png)
+![image](https://user-images.githubusercontent.com/92612454/144765788-0b1cb9a2-7f06-4ec5-97c6-b8bb1eeebf14.png)
 
 
 - Classe Pessoa: é uma classe abstrata e pai de Funcionario e Cliente
