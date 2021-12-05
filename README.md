@@ -27,6 +27,7 @@ como Autoajuda, ficção, não-ficção, científico, concursos, didáticos, etc
 ## Relatórios
  
 ### Diagrama de classe
-
+![image](https://user-images.githubusercontent.com/92612454/144765213-41d5c49a-ca35-4dcf-bc19-8cae67077307.png)
 
 ### Diagrama de caso de uso
+![image](https://user-images.githubusercontent.com/92612454/144765182-6abf8c18-4abc-4b3c-82b0-e8e391ddd5f2.png)
