@@ -47,14 +47,19 @@ class Livro{
 
 
 class Locacao{
-    constructor(livro, Cliente, funcionario){
+    constructor(livro, cliente, funcionario){
         this.livro = livro;
-        this.Cliente = Cliente;
+        this.cliente = cliente;
         this.funcionario = funcionario;
     }
 
     geraObjeto(){
-        
+        obj = {
+            livro: this.livro,
+            cliente: this.cliente,
+            funcionario: this.funcionario
+        }
+        return obj
     }
 }
 // ------------------------ conexao com banco de dados e instanciamento de classes ------------------------
