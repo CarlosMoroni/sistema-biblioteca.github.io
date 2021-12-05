@@ -31,4 +31,5 @@ como Autoajuda, ficção, não-ficção, científico, concursos, didáticos, etc
 
 
 ### Diagrama de caso de uso
-![image](https://user-images.githubusercontent.com/92612454/144765182-6abf8c18-4abc-4b3c-82b0-e8e391ddd5f2.png)
+![image](https://user-images.githubusercontent.com/92612454/144767467-346f1d39-c3d1-447a-816b-65de5b08c68a.png)
+
