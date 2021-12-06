@@ -147,4 +147,25 @@ class Locacao{
 }
 ````
 Classe Locacao gera o objeto que sera inserido no na tabela locacao no banco de dados 
+<br><br><br>
 
+# Telas do Sistema
+
+## Tela Inicial
+![image](https://user-images.githubusercontent.com/92612454/144768523-13b22a65-4c4b-4448-acc1-c47e60bf7482.png)
+<br><br><br>
+
+## Tela Principal 
+![image](https://user-images.githubusercontent.com/92612454/144768560-88f8b6ce-08f8-4524-b29a-94b18f2d1ef0.png)
+<br><br><br>
+
+## Tela de cadastro de Funcionarios
+![image](https://user-images.githubusercontent.com/92612454/144769187-94121003-2d62-4cae-bc71-c7b6c7d075d3.png)
+<br><br><br>
+
+## Tela de cadastro de Livros
+![image](https://user-images.githubusercontent.com/92612454/144769276-145c715c-6d46-4928-b695-614085a492ab.png)
+<br><br><br>
+
+## Tela de cadastro de Clientes
+![image](https://user-images.githubusercontent.com/92612454/144769427-80ae7c6c-61de-4cfe-bb8d-afe4f9305166.png)
