@@ -1,15 +1,15 @@
 # Sistema-de-Biblioteca
 ## Trabalho para n2 da matéria de programação orientada a objetos
-Aluno Carlos Moroni Barbosa Gil<br>
-professor Edkallenn Lima <br>
-Programação Orientada a Objetos WEB <br>
+Aluno: Carlos Moroni Barbosa Gil<br>
+professor: Edkallenn Lima <br>
+Materia: Programação Orientada a Objetos WEB <br>
 7º periodo<br><br><br>
 
 
 ## Descrição do Projeto
 ---
-O sistema foi feito ultilizando o frameworq Electron que cria aplicativos desktop 
-multiplataforma ultilizando as tecnologias
+O sistema foi feito com o framework Electron que cria aplicativos desktop 
+multiplataforma utilizando as tecnologias
 
 - JavaScript
 - HTML 5
@@ -33,23 +33,23 @@ como Autoajuda, ficção, não-ficção, científico, concursos, didáticos, etc
 - Classe Pessoa: é uma classe abstrata e pai de Funcionario e Cliente
 - Classe Cliente: estende Pessoa 
 - Classe Funcionario: estende Pessoa e tem apenas um atributo, cargo
-- Classe Locacao: recebe 3 atributos livro, cliente e funcionario tres objetos que são necessários para a inserção no banco de dados
-- CLasse Livro: gera novos livros 
+- Classe Locação: recebe 3 atributos livro, cliente e funcionário três objetos que são necessários para a inserção no banco de dados
+- Classe Livro: gera novos livros
 
-Em atualizações futuras pode-se adicionar novos tipos de produtos alem dos livros, exemplo: audio books, revistas, video aulas.<br><br>
+Em atualizações futuras pode-se adicionar novos tipos de produtos além dos livros, exemplo: áudio books, revistas, vídeo aulas.<br><br>
 Tudo com muita facilidades apenas criando novas classes e colocando seus objetos na instancia da classe locação, fazendo com que todo e qualquer produto seja inserido no banco de dados assim como os livros.
 
 ### Diagrama de caso de uso
 ![image](https://user-images.githubusercontent.com/92612454/144767936-e64e02d5-afcf-41f8-b03b-7033598f4119.png)
 
 ### Ator Funcionario: 
-Pode cadastrar novos funcionarios, cliente e livros ele pode tambem visualizar o relatorio de livros que é filtrado por genero, alem disso ele pode efetual locações e devoluções de livros
+Pode cadastrar novos funcionários, cliente e livros ele pode também visualizar o relatório de livros que é filtrado por gênero, além disso ele pode efetua locações e devoluções de livros.
 
 ### Ator Cliente: 
-Pode fazer locação e devolução de livros e consultar o relatorio de locação que ira informar se esta no prazo de entrega ou não, caso esteja atrasado o sistema ira calcular o valor da multa que devera ser pago.
+Pode fazer locação e devolução de livros e consultar o relatório de locação que irá informar se está no prazo de entrega ou não, caso esteja atrasado o sistema irá calcular o valor da multa que deverá ser pago.
 
 ### Ator Sistema:
-Gera os relatorio de locação e de livros e salva no banco de dados todas as locações e devoluções feitas pelo funcinario 
+Gera os relatórios de locação e de livros e salva no banco de dados todas as locações e devoluções feitas pelo funcionário.
 <br><br><br>
 
 ## Implementação
@@ -76,9 +76,9 @@ class Pessoa{
 }
 ```
 
-A classe Pessoa primeiramente testa se a instanciação que esta sendo feita é a propia classe Pessoa, se for verdadeiro ele lança o erro ' Classe abstrata nao pode ser instanciada! '.<br>
+A classe Pessoa primeiramente testa se a instanciação que está sendo feita é a própria classe Pessoa, se for verdadeiro ele lança o erro ' Classe abstrata não pode ser instanciada! '.<br>
 
-As unicas classes que podem ser instanciadas são as classes filhas Cliente e Funcionario <br>
+As únicas classes que podem ser instanciadas são as classes filhas Cliente e Funcionário. <br>
 
 Seus atributos são: nome, idade, sexo, cpf, email e telefone;<br><br><br>
 
@@ -93,9 +93,9 @@ class Funcionario extends Pessoa{
 }
 ````
 
-A classe Funcinario estende Pessoa e herda quase todos os atributos da classe pai.
+A classe Funcionário estende Pessoa e herda quase todos os atributos da classe pai.
 
-O unico atributo que é exclusivo da classe Funcionario é o cargo.<br><br><br>
+O único atributo que é exclusivo da classe Funcionário é o cargo.<br><br><br>
 
 ### Classe Cliente
 ````js
@@ -106,7 +106,7 @@ class Cliente extends Pessoa{
 }
 ````
 
-A classe Cliente nao possui nenhum atributo exclusivo todos os atributos são herdados da classe pai Pessoa.
+A classe Cliente não possui nenhum atributo exclusivo todos os atributos são herdados da classe pai Pessoa.
 <br><br><br>
 
 
@@ -124,7 +124,7 @@ class Livro{
     }
 }
 ````
-Seus atributos bases sao: titulo, autor, genero, editora, isbn, paginas, valor ela nao estende e nem é estendida por nenhuma outra. <br><br><br>
+Seus atributos bases são: título, autor, gênero, editora, Ibn, páginas, valor ela não estende e nem é estendida por nenhuma outra. <br><br><br>
 
 
 ### Classe Locação
@@ -146,7 +146,7 @@ class Locacao{
     }
 }
 ````
-Classe Locacao gera o objeto que sera inserido no na tabela locacao no banco de dados 
+Classe Locação gera o objeto que será inserido na tabela locação no banco de dados 
 <br><br><br>
 
 # Telas do Sistema
@@ -169,3 +169,4 @@ Classe Locacao gera o objeto que sera inserido no na tabela locacao no banco de 
 
 ## Tela de cadastro de Clientes
 ![image](https://user-images.githubusercontent.com/92612454/144769427-80ae7c6c-61de-4cfe-bb8d-afe4f9305166.png)
+
