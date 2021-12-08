@@ -5,9 +5,10 @@ professor: Edkallenn Lima <br>
 Materia: Programação Orientada a Objetos WEB <br>
 7º periodo<br><br><br>
 
+---
 
 ## Descrição do Projeto
----
+
 O sistema foi feito com o framework Electron que cria aplicativos desktop 
 multiplataforma utilizando as tecnologias
 
